@@ -1,7 +1,6 @@
 
 # 🔥 Fire Help – Sistema de Alerta e Combate a Incêndios
 
-**Autor(a):** Ana Beatriz A. da Silva (bia) e equipe
 **Curso:** Engenharia de Software – Universidade de Vassouras (Campus Saquarema)
 **Período:** 2º período
 **Orientador:** Prof. André Saraiva
