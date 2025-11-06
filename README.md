@@ -3,7 +3,6 @@
 
 **Curso:** Engenharia de Software – Universidade de Vassouras (Campus Saquarema)
 **Período:** 2º período
-**Orientador:** Prof. André Saraiva
 **Status:** Em desenvolvimento
 
 ---
