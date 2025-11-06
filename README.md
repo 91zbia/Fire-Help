@@ -85,6 +85,3 @@ Se quiser sugerir algo, contribuir com código, design ou documentação, pode a
 Este projeto é de uso acadêmico e está licenciado sob a MIT License.
 Sinta-se livre para estudar, modificar e compartilhar, mantendo os devidos créditos.
 
----
-
-quer que eu monte uma **versão curta** também (tipo um mini resumo de 3 parágrafos) pra tu pôr na descrição do repositório (aquela parte logo abaixo do nome)?
