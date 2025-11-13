@@ -1,3 +1,7 @@
+:root {
+  --whatsapp-brand: #25D366;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +25,6 @@ body {
   top: 0;
   width: 100%;
   z-index: 1000;
-  border-bottom: 2px solid #e10600;
 }
 
 .logo {
@@ -37,16 +40,17 @@ body {
   color: #fff;
   font-weight: 600;
   transition: color 0.3s;
+  border-bottom: 2px solid #e10600;
+  text-decoration: none;
 }
 
 .menu-item:hover {
-  color: #ff4500;
+  color: #ff3c00;
 }
 
 .hero {
   height: 100vh;
-  background: url("https://tse1.mm.bing.net/th/id/OIP.kiqjf9_mKUS7SHTIbXyJtgHaEJ?cb=12&w=1060&h=594&rs=1&pid=ImgDetMain&o=7&rm=3")
-    center/cover no-repeat;
+  background: url("https://tse1.mm.bing.net/th/id/OIP.kiqjf9_mKUS7SHTIbXyJtgHaEJ?cb=12&w=1060&h=594&rs=1&pid=ImgDetMain&o=7&rm=3") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,23 +85,27 @@ body {
   margin-top: 15px;
   color: #fff;
 }
-
 .botao-acao {
   margin-top: 30px;
-  padding: 12px 30px;
-  background-color: #e10600;
+  padding: 14px 36px;
+  background: linear-gradient(45deg, #e10600, #ff1a1a);
   border: none;
-  border-radius: 8px;
-  color: #fff;
-  font-size: 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  font-size: 1.05rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.3);
+  letter-spacing: 0.5px;
 }
 
 .botao-acao:hover {
-  background-color: #ff4500;
+  transform: scale(1.07);
+  background: linear-gradient(45deg, #ff1a1a, #e10600);
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.3);
 }
+
 
 .secao {
   padding: 100px 60px;
@@ -115,7 +123,6 @@ body {
   max-width: 1100px;        
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
 }
-
 
 h2 {
   color: #e10600;
@@ -197,20 +204,54 @@ p {
   color: #fff;
 }
 
-.form-contato button {
-  padding: 10px;
-  background: #e10600;
-  color: #fff;
+.form-contato button { 
+  margin-top: 30px;
+  padding: 14px 20px;
+  background: linear-gradient(45deg, #e10600, #ff1a1a);
   border: none;
-  border-radius: 6px;
+  border-radius: 20px;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  font-size: 1.05rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.3s ease;
+ 
+  letter-spacing: 0.5px;
 }
 
 .form-contato button:hover {
-  background: #ff4500;
+  transform: scale(1.07);
+  background: linear-gradient(45deg, #ff1a1a, #e10600);
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.3);
+}
 
+.grupo-whatsapp {
+  margin-top: 40px;
+}
+
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--whatsapp-brand);
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-link i {
+  font-size: 22px;
+}
+
+
+.whatsapp-link:hover {
+  background-color: #25D366;
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(37, 211, 102, 0.6);
 }
 
 .rodape {

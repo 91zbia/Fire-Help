@@ -7,13 +7,13 @@
     <title>Fire Help</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
     <header class="cabecalho">
       <img src="logo.jpg" alt="Logo Fire Help" class="logo" />
       <nav class="menu">
         <a class="menu-item" href="#inicio">Início</a>
-        
         <a class="menu-item" href="#problema">Problema</a>
         <a class="menu-item" href="#solucao">Solução</a>
         <a class="menu-item" href="#funcionalidades">Funcionalidades</a>
@@ -34,16 +34,12 @@
 
     <section id="problema" class="secao">
       <h2>O Problema</h2>
-      <p>
-        Os incêndios florestais e urbanos têm se tornado cada vez mais frequentes, ameaçando ecossistemas, vidas humanas e causando enormes prejuízos econômicos. A falta de tecnologias eficazes para detecção rápida agrava ainda mais esses impactos.
-      </p>
+      <p>Os incêndios florestais e urbanos têm se tornado cada vez mais frequentes, ameaçando ecossistemas, vidas humanas e causando enormes prejuízos econômicos. A falta de tecnologias eficazes para detecção rápida agrava ainda mais esses impactos.</p>
     </section>
 
     <section id="solucao" class="secao destaque">
       <h2>A Solução</h2>
-      <p>
-        O Fire Help é um sistema inteligente que une sensores ambientais, câmeras e um aplicativo móvel para monitorar, detectar e alertar sobre focos de incêndio em tempo real. Essa integração reduz o tempo de resposta e fortalece a colaboração entre comunidade e autoridades.
-      </p>
+      <p>O Fire Help é um sistema inteligente que une sensores ambientais, câmeras e um aplicativo móvel para monitorar, detectar e alertar sobre focos de incêndio em tempo real. Essa integração reduz o tempo de resposta e fortalece a colaboração entre comunidade e autoridades.</p>
     </section>
 
     <section id="funcionalidades" class="secao">
@@ -81,35 +77,29 @@
         <div class="membro">Rafael dos Santos Paulo</div>
         <div class="membro">Rodrigo G. da Conceição</div>
       </div>
-      <p class="orientador">Professor Orientador: André Saraiva</p>
+      <p class="orientador">Professor Orientador: Sérgio Santos</p>
     </section>
 
     <section id="contato" class="secao destaque">
       <h2>Fale Conosco</h2>
       <p>Entre em contato com nossa equipe para saber mais sobre o projeto Fire Help.</p>
-      <form class="form-contato" onsubmit="return false;">
-        <input type="text" placeholder="Seu nome" required />
-        <input type="email" placeholder="Seu e-mail" required />
-        <textarea placeholder="Sua mensagem" rows="4" required></textarea>
+      <form class="form-contato" id="formContato">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <input type="email" id="email" placeholder="Seu e-mail" required />
+        <textarea id="mensagem" placeholder="Sua mensagem" rows="4" required></textarea>
         <button type="submit">Enviar</button>
       </form>
+      <div class="grupo-whatsapp">
+        <a href="https://chat.whatsapp.com/H63BBq1nhrj9ljx0kHBhZg?mode=wwt" target="_blank" class="whatsapp-link">
+          <i class="fa-brands fa-whatsapp"></i> Entrar no grupo da comunidade!
+        </a>
+      </div>
     </section>
 
     <footer class="rodape">
       <p>© 2025 Fire Help | Universidade de Vassouras – Campus Saquarema</p>
     </footer>
 
-    <script>
-      document.getElementById("botaoApp").addEventListener("click", () => {
-        alert("O aplicativo ainda está em desenvolvimento e será lançado em breve!");
-      });
-      document.querySelectorAll('a[href^="#"]').forEach(link => {
-        link.addEventListener("click", e => {
-          e.preventDefault();
-          const alvo = document.querySelector(link.getAttribute("href"));
-          alvo.scrollIntoView({ behavior: "smooth" });
-        });
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
