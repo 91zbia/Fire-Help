@@ -31,7 +31,6 @@ Mesmo em fase inicial, o projeto já representa um passo importante para aplicar
 ## Tecnologias Utilizadas (até o momento)
 
 * Front-end: HTML5, CSS3, JavaScript
-* Design e prototipagem: Figma e Canva
 * Hospedagem: GitHub Pages
 * Outras ferramentas e linguagens serão implementadas nas próximas etapas do projeto
 
